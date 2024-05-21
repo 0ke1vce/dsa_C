@@ -27,7 +27,7 @@ int isFull(struct Stack *ptr){
 }
 
 void push(struct Stack *s,int element){
-    if(isFull(s)){
+    if(isFull(s)){    //means if this condition is true that is condition is 1-->TRUE
         printf("Stack Overflow\n");
         return;
     }
@@ -43,22 +43,40 @@ void Display(struct Stack *s){
     }
 }
 
-int peek(struct Stack *s){
+int peek(struct Stack *s,int element_number){
      // Check if stack is Empty
     if(isEmpty(s)){
         printf("Stack is Empty\n");
         return -1;
     }
-    
+    if(element_number<0){
+        printf("Not a valid Position\n");
+        return -1;
+  }
+  else if(element_number>s->top){
+        printf("Not a valid Position\n");
+        return -1;
+    }
     else{
-        int top=s->arr[s->top];
-        return top;
+        int element=s->arr[element-1];
+        return element;
     }
 }
 
 void pop(struct Stack *s){
+    int val=s->arr[s->top];
     s->top--;
+    printf("Removed element is %d\n",val);
 }
+
+int stackTop(struct Stack *s){
+    return s->arr[s->top];
+}
+
+int stackBottom(struct Stack *s){
+    return s->arr[0];
+}
+
 
 int main(){
   
@@ -68,8 +86,8 @@ int main(){
         return 1; // Exit with error
     }
 
-    s->size = 30;
-    s->top = -1;
+    s->size = 80;
+    s->top = -1;  //show the stack is Empty
     s->arr = (int *)malloc(s->size * sizeof(int));
 
 
@@ -103,9 +121,9 @@ int main(){
     // Display our stack
     Display(s);
 
-    // TO peek our Top or last index
-    int top=peek(s);
-    printf("Top element is %d\n",top);
+    // TO peek our element at number 3
+    int top=peek(s,3);
+    printf("Peeked element is %d\n",top);
 
 
 // TO pop element from stack
@@ -116,8 +134,18 @@ int main(){
     Display(s);
 
 // TO display TOP
-    top=peek(s);
+    top=peek(s,s->top);
     printf("Top element is %d\n",top);
+
+
+// Stack Top 
+int Top=stackTop(s);
+    printf("Stack Top is %d\n",Top);
+
+// STtack Bottom 
+int Bottom=stackBottom(s);
+    printf("Stack Bottom is %d\n",Bottom);
+
 
 return 0;
 }
