@@ -49,6 +49,7 @@ struct Node * insertAtLast(struct Node *head,int data){
     ptr->next=NULL;   //to get end of list we use NULL
     p->next=ptr;     
     return head;
+    
 
 }
 
