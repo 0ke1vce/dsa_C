@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/dsa_C/Questions",
-      "program": "d:/dsa_C/Questions/build/Debug/outDebug",
+      "cwd": "d:/dsa_C/Revision",
+      "program": "d:/dsa_C/Revision/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
