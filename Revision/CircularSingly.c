@@ -18,15 +18,18 @@ node* createnode(){
 }
 
 int len(node *head) {
-    int i = 0;
-    node *tmp = head;
     if (head == NULL) return 0; // Handle empty list
-    do {
+
+    int count = 1;  // Start from 1, as head is the first node
+    node *tmp = head->next;  // Start from the node after head
+
+    while (tmp != head) {
         tmp = tmp->next;
-        i++;
-    } while (tmp != head);
-    return i;
+        count++;
+    }
+    return count;
 }
+
 
 void display(node *head) {
     if (head == NULL) {

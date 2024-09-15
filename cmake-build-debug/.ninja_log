@@ -1,0 +1,25 @@
+# ninja log v6
+2	323	7481197590589577	CMakeFiles/dsa_C.dir/Questions/insertiondeletion.c.obj	8235b95bba26ceb4
+41	388	7481197590646545	CMakeFiles/dsa_C.dir/Revision/Linked_List_Insertion.c.obj	f7c88b59d3b4cb0c
+44	390	7481197590683933	CMakeFiles/dsa_C.dir/Revision/StackLinkedList.c.obj	5d30258c1780f995
+37	391	7481197590610654	CMakeFiles/dsa_C.dir/Questions/Middle_of_linkedList.c.obj	18440f2a48ba2e45
+42	393	7481197590658728	CMakeFiles/dsa_C.dir/Revision/SearchingLinkedList.c.obj	18f886a61a582b54
+43	394	7481197590673778	CMakeFiles/dsa_C.dir/Revision/SinglyLinkedList.c.obj	c66ca474f879ded8
+38	395	7481197590620644	CMakeFiles/dsa_C.dir/Revision/CircularSingly.c.obj	d291feb0ad9ec2b6
+39	396	7481197590634996	CMakeFiles/dsa_C.dir/Revision/DoublyCircular.c.obj	ac789ed93235986e
+40	398	7481197590634996	CMakeFiles/dsa_C.dir/Revision/DoublyLinkedList.c.obj	45154f70ca1736e
+45	400	7481197590683933	CMakeFiles/dsa_C.dir/ArrayADT.c.obj	493cff9d564145a1
+397	722	7481197594207197	CMakeFiles/dsa_C.dir/LinearVsBinarySearch.c.obj	6ec73c9bb471a1bf
+374	725	7481197594109825	CMakeFiles/dsa_C.dir/Circular_Linked_List.c.obj	150f08d719d85dba
+400	727	7481197594241592	CMakeFiles/dsa_C.dir/Queue_using_Arrays.c.obj	3df18e7e2c8fa4f4
+388	729	7481197594119844	CMakeFiles/dsa_C.dir/CircularQueueUsingArray.c.obj	82e8600040390d5e
+399	731	7481197594220854	CMakeFiles/dsa_C.dir/LinkedList_Creation_And_Traversal.c.obj	3804506f41b55ff3
+391	732	7481197594154697	CMakeFiles/dsa_C.dir/DeletionInArray.c.obj	89f9ea1ceb02d975
+395	732	7481197594194327	CMakeFiles/dsa_C.dir/InsertionInArray.c.obj	101e102fcdd766e5
+394	733	7481197594179292	CMakeFiles/dsa_C.dir/Insertion_In_LinkedList.c.obj	6bf35eba89e3986d
+393	733	7481197594166500	CMakeFiles/dsa_C.dir/DoublyLinkedList.c.obj	b3fb68f27dc56bd1
+390	733	7481197594134679	CMakeFiles/dsa_C.dir/Deletion_In_LinkedList.c.obj	cd9b77a6d054e92
+729	790	7481197597540829	CMakeFiles/dsa_C.dir/Stack_using_Linked_List.c.obj	1b1df3156cbb0d0a
+725	796	7481197597485412	CMakeFiles/dsa_C.dir/Stack_Paranthisis_Matching.c.obj	73c1d412762c297b
+728	796	7481197597520760	CMakeFiles/dsa_C.dir/Stack_Using_Array.c.obj	88eca11acff2ad8f
+723	797	7481197597460310	CMakeFiles/dsa_C.dir/Stack_Coding_Infinix_to_Postfix.c.obj	e2869965859dea26
