@@ -13,20 +13,20 @@ node* createnode(){
     printf("Enter data in  your node");
     scanf("%d",&data);
     newnode->data=data;
-    newnode->next=NULL;
+    newnode->next=newnode;
     return newnode;
 }
 
 int len(node *head) {
     if (head == NULL) return 0; // Handle empty list
 
-    int count = 1;  // Start from 1, as head is the first node
-    node *tmp = head->next;  // Start from the node after head
+    int count = 0; 
+    node *tmp = head;  // Start from the node  head
 
-    while (tmp != head) {
-        tmp = tmp->next;
+    do{
+        tmp=tmp->next;
         count++;
-    }
+    }while(tmp!=head);
     return count;
 }
 
@@ -52,7 +52,8 @@ node* InsertionBeg(node* head) {
         // If the list is empty, point the new node to itself
         newnode->next = newnode;
         head = newnode;
-    } else {
+    }
+    else {
         // If the list is not empty, find the last node
         node* tmp = head;
         while (tmp->next != head) { // Circular condition

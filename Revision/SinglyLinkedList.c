@@ -226,7 +226,7 @@ void searching(node *n1, int ele){
         i++;
     }
 
-    if(!flag){
+    if(flag==false){
         printf("Element not found\n");
     }
 }
